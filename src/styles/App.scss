@@ -1,0 +1,26 @@
+html, body {
+  height: 100%;
+  background-color: #eae4e4;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #eae4e4;
+
+
+  .header-container {
+    flex-shrink: 0;
+  }
+
+  .content {
+    flex-grow: 1;
+  }
+
+
+  .footer-container {
+    flex-shrink: 0;
+  }
+}
+
